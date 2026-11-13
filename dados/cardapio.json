@@ -1,0 +1,1020 @@
+{
+  "fonte": "https://www.padariafafe.com/sobre",
+  "extraido_em": "2026-11-13",
+  "obs": "preco = null: o site atual não informa preços do cardápio",
+  "categorias": [
+    {
+      "id": "bolos",
+      "nome": "Bolos",
+      "produtos": [
+        {
+          "codigo": 4402,
+          "nome": "Bariloche",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "creme de baunilha, chocolate, suspiro e chantilly",
+          "cobertura": "chantilly com flocos de chocolate"
+        },
+        {
+          "codigo": 4404,
+          "nome": "Brigadeiro",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "massa de brigadeiro",
+          "cobertura": "chocolate granulado e brigadeiros"
+        },
+        {
+          "codigo": 4406,
+          "nome": "Charlote",
+          "preco": null,
+          "frutas": "Maracujá, morango, pêssego, ameixa, kiwi e uva",
+          "recheio": "gelatina e fruta",
+          "cobertura": "leite de coco, chantilly e leite condensado"
+        },
+        {
+          "codigo": 4408,
+          "nome": "Crocante",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "crocante e chantilly",
+          "cobertura": "chantilly e crocante"
+        },
+        {
+          "codigo": 4409,
+          "nome": "Cesta",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "creme de chocolate ou chantilly com morangos",
+          "cobertura": "creme de chocolate ou chantilly com morangos"
+        },
+        {
+          "codigo": 4410,
+          "nome": "Fantasia ou Sensação",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "creme de chocolate, morango",
+          "cobertura": "creme Paris com morango"
+        },
+        {
+          "codigo": 4411,
+          "nome": "Mousse de Chocolate",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "Mousse de chocolate",
+          "cobertura": "Mousse de Chocolate"
+        },
+        {
+          "codigo": 4412,
+          "nome": "Ferrero Rocher",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "mousse de chocolate com crocante de amêndoas",
+          "cobertura": "creme de chocolate com Ferrero Rocher"
+        },
+        {
+          "codigo": 4414,
+          "nome": "Floresta Negra",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "cereja e chantilly",
+          "cobertura": "Chantilly, raspas de chocolate e cereja"
+        },
+        {
+          "codigo": 4415,
+          "nome": "Paisagem",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "creme de frutas ou a escolher",
+          "cobertura": "Chantilly"
+        },
+        {
+          "codigo": 4416,
+          "nome": "Floresta Branca",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "cereja e chantilly",
+          "cobertura": "Chantilly, raspas de chocolate branco e cereja"
+        },
+        {
+          "codigo": 4417,
+          "nome": "Coco",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "Chantilly e coco",
+          "cobertura": "Chantilly e coco."
+        },
+        {
+          "codigo": 4418,
+          "nome": "Frutas Tropicais",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "chantilly com frutas tropicais",
+          "cobertura": "Chantilly com frutas tropicais"
+        },
+        {
+          "codigo": 4420,
+          "nome": "Gateaux Saint Honorè",
+          "preco": null,
+          "base": "Massa folhada",
+          "recheio": "creme zabaillon com chantilly",
+          "cobertura": "carolinas caramelizadas com chantilly"
+        },
+        {
+          "codigo": 4421,
+          "nome": "Favo de mel",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "chantilly, creme paris e mel de abelha.",
+          "cobertura": "creme de chocolate com favo de mel."
+        },
+        {
+          "codigo": 4422,
+          "nome": "Marshmallow-Chocolate",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "creme e morango",
+          "cobertura": "Marshmallow e chocolate"
+        },
+        {
+          "codigo": 4423,
+          "nome": "Sucrilhos",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "doce de leite, cacau e sucrilhos",
+          "cobertura": "Chantilly e sucrilhos"
+        },
+        {
+          "codigo": 4424,
+          "nome": "Marshmallow-Morango",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "creme e morango",
+          "cobertura": "Marshmallow, chocolate e morango"
+        },
+        {
+          "codigo": 4425,
+          "nome": "Mousse de Limão",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "Mousse de Limão",
+          "cobertura": "Chantilly com raspas de limão."
+        },
+        {
+          "codigo": 4426,
+          "nome": "Merengue",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "chantilly com morango e suspiros",
+          "cobertura": "chantilly e suspiros"
+        },
+        {
+          "codigo": 4427,
+          "nome": "Super Bomba",
+          "preco": null,
+          "base": "Bomba",
+          "recheio": "creme de chocolate ou chantilly, morangos e creme baunilha.",
+          "cobertura": "creme de chocolate ou chantilly, morangos"
+        },
+        {
+          "codigo": 4428,
+          "nome": "Mil Folhas",
+          "preco": null,
+          "base": "massa folhada",
+          "recheio": "creme de baunilha com chantilly",
+          "cobertura": "açúcar impalpável"
+        },
+        {
+          "codigo": 4429,
+          "nome": "Damasco",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "leite condensado, damasco e chantilly",
+          "cobertura": "leite condensado, damasco e chantilly"
+        },
+        {
+          "codigo": 4430,
+          "nome": "Nozes",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "creme de nozes com chantilly",
+          "cobertura": "Chantilly e nozes"
+        },
+        {
+          "codigo": 4431,
+          "nome": "Maracujá",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "mousse de maracujá",
+          "cobertura": "Chantilly"
+        },
+        {
+          "codigo": 4432,
+          "nome": "Prestígio",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "Coco fresco e leite condensado",
+          "cobertura": "Chocolate meio amargo"
+        },
+        {
+          "codigo": 4433,
+          "nome": "Mousse Misto",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "Mousse de Chocolate e Coco",
+          "cobertura": "Chantilly"
+        },
+        {
+          "codigo": 4434,
+          "nome": "Profiterolle",
+          "preco": null,
+          "base": "massa folhada",
+          "recheio": "creme de chocolate, carolinas de chocolate e creme",
+          "cobertura": "chantilly"
+        },
+        {
+          "codigo": 4435,
+          "nome": "Caramelo",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "chantilly, caramelo, crocante, xerem de cajú e leite condensado.",
+          "cobertura": "chantilly"
+        },
+        {
+          "codigo": 4436,
+          "nome": "Trufa de Chocolate Branco",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "creme de chocolate branco com amêndoas",
+          "cobertura": "creme Paris branco"
+        },
+        {
+          "codigo": 4437,
+          "nome": "Tiro Laser",
+          "preco": null,
+          "base": "pão de ló chocolate",
+          "recheio": "flocos de chocolate e creme",
+          "cobertura": "creme Paris"
+        },
+        {
+          "codigo": 4438,
+          "nome": "Trufa de Chocolate",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "creme de chocolate com amêndoas",
+          "cobertura": "creme Paris"
+        },
+        {
+          "codigo": 4440,
+          "nome": "Sorvete",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "opção de sorvetes (morango, chocolate, flocos, nozes, napolitano, crocante, passas ao rum, prestígio, floresta negra, creme, coco, limão e abacaxi)",
+          "cobertura": "Chantilly"
+        },
+        {
+          "codigo": 4441,
+          "nome": "Torta Regina",
+          "preco": null,
+          "base": "massa folhada e pão de ló branco",
+          "recheio": "creme zabaillon",
+          "cobertura": "creme zabaillon"
+        },
+        {
+          "codigo": 4442,
+          "nome": "Tiramissu",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "chantilly e mascarpone",
+          "cobertura": "cacau em pó"
+        },
+        {
+          "codigo": 4443,
+          "nome": "Marzipan",
+          "preco": null,
+          "base": "pão de ló branco",
+          "recheio": "à escolha",
+          "cobertura": "marzipan"
+        },
+        {
+          "codigo": 4444,
+          "nome": "Torta Cheese Cake de Morango",
+          "preco": null,
+          "base": "Cheese cake",
+          "cobertura": "Mousse de morango"
+        },
+        {
+          "codigo": 4446,
+          "nome": "Torta de Frutas",
+          "preco": null,
+          "recheio": "creme baunilha",
+          "cobertura": "Frutas tropicais"
+        },
+        {
+          "codigo": 4448,
+          "nome": "Torta Francesa",
+          "preco": null,
+          "base": "Massa podre",
+          "recheio": "creme a base de queijo suíço",
+          "cobertura": "peras"
+        },
+        {
+          "codigo": 4450,
+          "nome": "Torta Holandesa",
+          "preco": null,
+          "base": "pão de ló de chocolate",
+          "recheio": "creme holandês e biscoitos de leite",
+          "cobertura": "creme Paris"
+        },
+        {
+          "codigo": 4451,
+          "nome": "Bolo Floresta de Morango",
+          "preco": null,
+          "base": "Pão de ló de chocolate",
+          "recheio": "Morangos com chantilly",
+          "cobertura": "Morangos com chantilly"
+        },
+        {
+          "codigo": 4456,
+          "nome": "Bolo de Morango",
+          "preco": null,
+          "base": "Pão de ló branco",
+          "recheio": "Morangos com chantilly",
+          "cobertura": "Morangos com chantilly"
+        },
+        {
+          "codigo": 4460,
+          "nome": "Bolo Floresta Mista",
+          "preco": null,
+          "base": "Pão de ló branco e de chocolate",
+          "recheio": "Cerejas com chantilly",
+          "cobertura": "Cerejas com chantilly, raspas de chocolate branco e preto."
+        }
+      ]
+    },
+    {
+      "id": "beirutes",
+      "nome": "Os sete beirutes do arco-íris",
+      "produtos": [
+        {
+          "codigo": 1801,
+          "nome": "Amarelo",
+          "descricao": "Peito de peru, catupiry, mussarela, alface e tomate",
+          "preco": null
+        },
+        {
+          "codigo": 1802,
+          "nome": "Azul",
+          "descricao": "Filé de frango, provolone, peito de peru, bacon, ovo, alface e tomate",
+          "preco": null
+        },
+        {
+          "codigo": 1803,
+          "nome": "Branco",
+          "descricao": "Linguiça calabresa, mussarela, palmito, champignon, cebola, ovo, bacon, alface e tomate seco",
+          "preco": null
+        },
+        {
+          "codigo": 1804,
+          "nome": "Laranja",
+          "descricao": "Churrasco, presunto, mussarela, ovo, bacon, alface e tomate",
+          "preco": null
+        },
+        {
+          "codigo": 1806,
+          "nome": "Verde",
+          "descricao": "Roast-beef, mussarela, presunto, ovo, bacon, alface e tomate",
+          "preco": null
+        },
+        {
+          "codigo": 1808,
+          "nome": "Vermelho",
+          "descricao": "Frango desfiado, catupiry, mussarela, milho, alface, tomate e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 1810,
+          "nome": "Violeta",
+          "descricao": "Atum, queijo branco, cebola, alface, tomate e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 1812,
+          "nome": "Rosa",
+          "descricao": "Presunto, salame, bacon, ovo, catupiry, mussarela, alface e tomate",
+          "preco": null
+        }
+      ]
+    },
+    {
+      "id": "tabuas-de-frios",
+      "nome": "Tábuas de frios",
+      "produtos": [
+        {
+          "codigo": 4202,
+          "nome": "Antúrio",
+          "descricao": "Hamburguês, italiano, milano, copa",
+          "preco": null
+        },
+        {
+          "codigo": 4204,
+          "nome": "Girassol",
+          "descricao": "Presunto parma, presunto cozido, peito de peru defumado califórnia, alcaparras",
+          "preco": null
+        },
+        {
+          "codigo": 4206,
+          "nome": "Flor de Lis",
+          "descricao": "Blanquet de peru califórnia, copa, salame italiano, mortadela, queijo prato, queijo provolone, azeitonas e pepino em conserva",
+          "preco": null
+        },
+        {
+          "codigo": 4208,
+          "nome": "Hortênsia",
+          "descricao": "Peito de peru defumado, presunto tenro defumado, presunto de peru defumado, figo, abacaxi, pessego e cerejas",
+          "preco": null
+        },
+        {
+          "codigo": 4210,
+          "nome": "Lótus",
+          "descricao": "Peito de peru defumado, presunto de peru defumado, blanquet de peru, Kiwi e damasco",
+          "preco": null
+        },
+        {
+          "codigo": 4212,
+          "nome": "Madacaru",
+          "descricao": "Presunto cozido, salame italiano, salame hamburguês, mortadela, rúcula e tomate seco",
+          "preco": null
+        },
+        {
+          "codigo": 4214,
+          "nome": "Orquídea",
+          "descricao": "Presunto parma, peito de peru defumado califórnia, salame hamburguês, salame italiano, copa, presunto cozido, abacaxi, cereja e pepino",
+          "preco": null
+        },
+        {
+          "codigo": 4216,
+          "nome": "Primavera",
+          "descricao": "Salame hamburguês, salame italiano, copa, presunto parma, presunto cozido, presunto de peru califórnia, lombo canadense",
+          "preco": null
+        },
+        {
+          "codigo": 4218,
+          "nome": "Prímula",
+          "descricao": "Peito de peru defumado, presunto de peru defumado califórnia, blanquet de peru califórnia, mussarela de búfala, queijo branco, abacaxi e manga",
+          "preco": null
+        },
+        {
+          "codigo": 4220,
+          "nome": "Quaresmeira",
+          "descricao": "Salame italiano, salame hamburguês, presunto cozido, copa, presunto parma",
+          "preco": null
+        },
+        {
+          "codigo": 4222,
+          "nome": "Rosa",
+          "descricao": "Presunto cozido com gordura, salame italiano, mortadela, queijo provolone, rúcula e tomate seco",
+          "preco": null
+        },
+        {
+          "codigo": 4224,
+          "nome": "Trombeta de Anjo",
+          "descricao": "Peito de peru defumado, blanquet de peru, queijo tipo fresco, mussarela de búfala, rúcula e tomate seco",
+          "preco": null
+        },
+        {
+          "codigo": 4226,
+          "nome": "Amor Perfeito",
+          "descricao": "Queijo prato, provolone, fresco, gorgonzola, mussarela de búfala, queijo parmesão ralado",
+          "preco": null
+        },
+        {
+          "codigo": 4228,
+          "nome": "Lírio",
+          "descricao": "Queijo prato, provolone, gorgonzola e parmesão",
+          "preco": null
+        },
+        {
+          "codigo": 4230,
+          "nome": "Cravo",
+          "descricao": "Queijo prato, provolone, fresco, mussarela de búfala, rúcula, azeitona e tomate seco",
+          "preco": null
+        },
+        {
+          "codigo": 4232,
+          "nome": "Natureza",
+          "descricao": "Combine 4 tipos de frios ou queijos de sua preferência",
+          "preco": null
+        }
+      ],
+      "observacao": "Todas as tábuas de frios acompanham 30 mini-pães e 2 patês."
+    },
+    {
+      "id": "lanches",
+      "nome": "Lanches",
+      "produtos": [
+        {
+          "codigo": 1701,
+          "nome": "Misto Quente",
+          "preco": null
+        },
+        {
+          "codigo": 1702,
+          "nome": "Bauru",
+          "preco": null
+        },
+        {
+          "codigo": 1704,
+          "nome": "Americano",
+          "preco": null
+        },
+        {
+          "codigo": 1706,
+          "nome": "Queijo",
+          "preco": null
+        },
+        {
+          "codigo": 1708,
+          "nome": "Queijo Minas",
+          "preco": null
+        },
+        {
+          "codigo": 1710,
+          "nome": "Queijo Provolone",
+          "preco": null
+        },
+        {
+          "codigo": 1712,
+          "nome": "Presunto",
+          "preco": null
+        },
+        {
+          "codigo": 1714,
+          "nome": "Presunto Parma",
+          "preco": null
+        },
+        {
+          "codigo": 1716,
+          "nome": "Salame",
+          "preco": null
+        },
+        {
+          "codigo": 1718,
+          "nome": "Copa",
+          "preco": null
+        },
+        {
+          "codigo": 1720,
+          "nome": "Mortadela Ceratti",
+          "preco": null
+        },
+        {
+          "codigo": 1721,
+          "nome": "Mortadela Ceratti com Queijo",
+          "preco": null
+        },
+        {
+          "codigo": 1722,
+          "nome": "Lombo Canadense",
+          "preco": null
+        },
+        {
+          "codigo": 1724,
+          "nome": "Peito de Peru",
+          "preco": null
+        },
+        {
+          "codigo": 1726,
+          "nome": "Peito de Peru com Queijo Prato",
+          "preco": null
+        },
+        {
+          "codigo": 1727,
+          "nome": "Peito de Peru com Queijo Branco",
+          "preco": null
+        },
+        {
+          "codigo": 1728,
+          "nome": "Calabresa",
+          "preco": null
+        },
+        {
+          "codigo": 1729,
+          "nome": "Calabresa com Molho",
+          "preco": null
+        },
+        {
+          "codigo": 1730,
+          "nome": "Calabresa com Queijo",
+          "preco": null
+        },
+        {
+          "codigo": 1732,
+          "nome": "Churrasco",
+          "preco": null
+        },
+        {
+          "codigo": 1733,
+          "nome": "Churrasco com Molho",
+          "preco": null
+        },
+        {
+          "codigo": 1734,
+          "nome": "Churrasco com Queijo",
+          "preco": null
+        },
+        {
+          "codigo": 1736,
+          "nome": "Filé de Frango",
+          "preco": null
+        },
+        {
+          "codigo": 1737,
+          "nome": "Filé de Frango com Molho",
+          "preco": null
+        },
+        {
+          "codigo": 1738,
+          "nome": "Filé de Frango com Queijo",
+          "preco": null
+        },
+        {
+          "codigo": 1740,
+          "nome": "Hambúrguer",
+          "preco": null
+        },
+        {
+          "codigo": 1741,
+          "nome": "Hambúrguer Salada",
+          "preco": null
+        },
+        {
+          "codigo": 1742,
+          "nome": "Cheese Búrguer",
+          "preco": null
+        },
+        {
+          "codigo": 1744,
+          "nome": "Cheese Salada",
+          "preco": null
+        },
+        {
+          "codigo": 1746,
+          "nome": "Cheese Egg",
+          "preco": null
+        },
+        {
+          "codigo": 1745,
+          "nome": "Cheese EggSalada",
+          "preco": null
+        },
+        {
+          "codigo": 1747,
+          "nome": "Cheese EggBaconSalada",
+          "preco": null
+        },
+        {
+          "codigo": 1748,
+          "nome": "Cheese Bacon",
+          "preco": null
+        },
+        {
+          "codigo": 1749,
+          "nome": "Cheese BaconSalada",
+          "preco": null
+        },
+        {
+          "codigo": 1750,
+          "nome": "Cheese Maionese",
+          "preco": null
+        },
+        {
+          "codigo": 1751,
+          "nome": "Cheese Vinagreti",
+          "preco": null
+        },
+        {
+          "codigo": 1752,
+          "nome": "Cheese Tudo",
+          "preco": null
+        },
+        {
+          "codigo": 1754,
+          "nome": "Lanche Natural com Tomate Seco",
+          "preco": null
+        },
+        {
+          "codigo": 1753,
+          "nome": "Lanche Natural",
+          "preco": null
+        },
+        {
+          "codigo": 1755,
+          "nome": "Lanche Natural com Três Frios",
+          "preco": null
+        },
+        {
+          "codigo": 1756,
+          "nome": "Lanche de Pernil ao Molho",
+          "preco": null
+        },
+        {
+          "codigo": 1757,
+          "nome": "Misto Quente na Baguete",
+          "preco": null
+        },
+        {
+          "codigo": 1758,
+          "nome": "Bauru na Baguete",
+          "preco": null
+        },
+        {
+          "codigo": 1759,
+          "nome": "Americano na Baguete",
+          "preco": null
+        },
+        {
+          "codigo": 1760,
+          "nome": "Cheese Churrasco na Baguete",
+          "preco": null
+        },
+        {
+          "codigo": 1761,
+          "nome": "Cheese Frango na Baguete",
+          "preco": null
+        },
+        {
+          "codigo": 1762,
+          "nome": "Cheese Calabresa na Baguete",
+          "preco": null
+        }
+      ]
+    },
+    {
+      "id": "sanduiches-de-metro",
+      "nome": "Sanduíches de metro",
+      "produtos": [
+        {
+          "codigo": 4302,
+          "nome": "Alecrim",
+          "descricao": "Frango desfiado, queijo prato, tomate, alface e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4304,
+          "nome": "Alfazema",
+          "descricao": "Atum, queijo prato, tomate, alface e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4306,
+          "nome": "Anis",
+          "descricao": "Presunto cozido, queijo prato, tomate, alface e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4308,
+          "nome": "Alamanda",
+          "descricao": "Mortadela ceratti, queijo provolone, tomate, alface e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4310,
+          "nome": "Artemisia",
+          "descricao": "Rosbife, queijo fresco, tomate, alface e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4312,
+          "nome": "Arruda",
+          "descricao": "Queijo prato, queijo fresco, provolone e requeijão",
+          "preco": null
+        },
+        {
+          "codigo": 4314,
+          "nome": "Balsamo",
+          "descricao": "Salsichão, provolone, tomate, alface e molho tártaro",
+          "preco": null
+        },
+        {
+          "codigo": 4316,
+          "nome": "Camomila",
+          "descricao": "Salame Italiano, provolone, alface, tomate e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4318,
+          "nome": "Azaléia",
+          "descricao": "Salame hamburguês, provolone, tomate, alface e requeijão",
+          "preco": null
+        },
+        {
+          "codigo": 4320,
+          "nome": "Açucena",
+          "descricao": "Copa, provolone, tomate, alface e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4322,
+          "nome": "Jaborandi",
+          "descricao": "Presunto cru, queijo prato, tomate, alface e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4324,
+          "nome": "Macela",
+          "descricao": "Salame hamburguês, agrião, cheddar",
+          "preco": null
+        },
+        {
+          "codigo": 4326,
+          "nome": "Melissa",
+          "descricao": "Peito de peru, queijo prato, tomate, alface e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4328,
+          "nome": "Begônia",
+          "descricao": "Tender defumado, queijo prato, tomate, alface e maionese",
+          "preco": null
+        },
+        {
+          "codigo": 4330,
+          "nome": "Calêndula",
+          "descricao": "Lombo canadense, queijo prato, tomate, alface e requeijão",
+          "preco": null
+        },
+        {
+          "codigo": 4332,
+          "nome": "Camélia",
+          "descricao": "Salpicão de frango, peito de peru defumado, alface e tomate",
+          "preco": null
+        },
+        {
+          "codigo": 4334,
+          "nome": "Hibisco",
+          "descricao": "Peito de Peru, blanquet de Peru, patê de ricota temperada, alface",
+          "preco": null
+        },
+        {
+          "codigo": 4336,
+          "nome": "Jasmim",
+          "descricao": "Peito de Peru, patê de queijo, berinjela condimentada",
+          "preco": null
+        },
+        {
+          "codigo": 4338,
+          "nome": "Lantana",
+          "descricao": "Salame italiano, rúcula, tomate seco, patê",
+          "preco": null
+        },
+        {
+          "codigo": 4340,
+          "nome": "Magnólia",
+          "descricao": "Presunto, requeijão, queijo gruyére, alface, tomate",
+          "preco": null
+        },
+        {
+          "codigo": 4342,
+          "nome": "Manacá",
+          "descricao": "Copa, queijo estepe, requeijão, cenoura, erva-doce, alface",
+          "preco": null
+        },
+        {
+          "codigo": 4344,
+          "nome": "Natureza",
+          "descricao": "Escolha 3 tipos de frios ou queijos, patê e folhas de sua preferência",
+          "preco": null
+        }
+      ],
+      "observacao": "Pães: baguete simples, gergelim ou parmesão. Rendimento: 10 pessoas = 2 sanduíches; 20 pessoas = 4; 40 pessoas = 8."
+    },
+    {
+      "id": "pizzas",
+      "nome": "Pizzas",
+      "produtos": [
+        {
+          "codigo": 4052,
+          "nome": "Milho Verde",
+          "descricao": "Milho verde e mussarela",
+          "preco": null
+        },
+        {
+          "codigo": 4054,
+          "nome": "Palmito",
+          "descricao": "Palmito e mussarela",
+          "preco": null
+        },
+        {
+          "codigo": 4056,
+          "nome": "Bacon",
+          "descricao": "Bacon, cebola e mussarela",
+          "preco": null
+        },
+        {
+          "codigo": 4058,
+          "nome": "Linguiça Calabresa",
+          "descricao": "Linguiça calabresa e cebola",
+          "preco": null
+        },
+        {
+          "codigo": 4060,
+          "nome": "Portuguesa",
+          "descricao": "Presunto, mussarela, cebola e ovo",
+          "preco": null
+        },
+        {
+          "codigo": 4062,
+          "nome": "Lombo",
+          "descricao": "Lombo canadense e cebola",
+          "preco": null
+        },
+        {
+          "codigo": 4064,
+          "nome": "Catupiry",
+          "preco": null
+        },
+        {
+          "codigo": 4066,
+          "nome": "Marguerita",
+          "descricao": "Mussarela, manjericão e parmesão",
+          "preco": null
+        },
+        {
+          "codigo": 4068,
+          "nome": "Mussarela",
+          "preco": null
+        },
+        {
+          "codigo": 4070,
+          "nome": "Mussarela ao Dente",
+          "descricao": "Mussarela e alho",
+          "preco": null
+        },
+        {
+          "codigo": 4072,
+          "nome": "Quatro Queijos",
+          "descricao": "Mussarela, provolone, catupiry e parmesão",
+          "preco": null
+        },
+        {
+          "codigo": 4074,
+          "nome": "Cinco Queijos",
+          "descricao": "Mussarela, provolone, catupiry e parmesão",
+          "preco": null
+        },
+        {
+          "codigo": 4076,
+          "nome": "Provolone",
+          "preco": null
+        },
+        {
+          "codigo": 4078,
+          "nome": "Provolone ao Dente",
+          "descricao": "Provolone e alho",
+          "preco": null
+        },
+        {
+          "codigo": 4080,
+          "nome": "Cheddar",
+          "descricao": "Queijo cremoso cheddar",
+          "preco": null
+        },
+        {
+          "codigo": 4082,
+          "nome": "Frango",
+          "descricao": "Frango desfiado e catupiry",
+          "preco": null
+        },
+        {
+          "codigo": 4084,
+          "nome": "Frango e Milho",
+          "descricao": "Frango desfiado, milho e catupiry",
+          "preco": null
+        },
+        {
+          "codigo": 4086,
+          "nome": "Peito de Peru",
+          "descricao": "Peito de peru e catupiry",
+          "preco": null
+        },
+        {
+          "codigo": 4088,
+          "nome": "Atum",
+          "descricao": "Atum e cebola",
+          "preco": null
+        },
+        {
+          "codigo": 4090,
+          "nome": "Aliche",
+          "preco": null
+        },
+        {
+          "codigo": 4092,
+          "nome": "À Moda",
+          "descricao": "Presunto, ervilha, ovo, palmito e mussarela",
+          "preco": null
+        }
+      ]
+    }
+  ]
+}

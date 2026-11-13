@@ -1,0 +1,10 @@
+# Fotos originais (~49 MB). As versões web ficam em assets/img/,
+# geradas por ferramentas/otimizar_imagens.py. Backup: PadariaFafe.zip.
+imagens/
+
+# Sistema / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+__pycache__/
