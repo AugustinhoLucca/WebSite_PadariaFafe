@@ -31,7 +31,7 @@ Esta pasta é a raiz do repositório https://github.com/AugustinhoLucca/WebSite_
 
 **Fase 0, inventário:** concluída. Conteúdo e imagens exportados. Ainda falta revisar preços, itens e promoções com a mãe.
 
-**Fase 1, front-end estático:** primeira versão pronta em 13/11/2026. Falta configurar o ID do Formspree em `contato/index.html` e revisar o conteúdo com a mãe (pendências em `docs/conteudo-site.md`).
+**Fase 1, front-end estático:** primeira versão pronta em 13/11/2026. O Formspree está provisório (`xrpqeqrw`, no e-mail do Lucca) e precisa ser trocado pelo da padaria antes do lançamento. Falta revisar o conteúdo com a mãe (pendências em `docs/conteudo-site.md`).
 1. Repositório no GitHub
 2. Páginas em HTML/CSS, responsivas e pensadas pro celular: `/`, `/a-padaria`, `/cardapio`, `/fotos`, `/promocoes`, `/contato`
 3. Botão de WhatsApp em destaque e link pro iFood

@@ -50,6 +50,7 @@ imagens/                Fotos originais (fora do Git, ver .gitignore)
 
 1. Crie uma conta grátis em https://formspree.io com o e-mail que deve receber as mensagens.
 2. Crie um formulário e copie o ID dele (ex.: `xyzabcde`).
-3. Em `contato/index.html`, troque `SEU_ID` em `action="https://formspree.io/f/SEU_ID"` pelo ID.
+3. Em `contato/index.html`, troque o ID em `action="https://formspree.io/f/..."` pelo novo.
+   Hoje está um formulário provisório (`xrpqeqrw`), ligado ao e-mail do Lucca. Antes de publicar, crie um com o e-mail da padaria.
 
 O plano grátis aceita 50 mensagens por mês. O campo oculto `_gotcha` serve de filtro anti-spam.
