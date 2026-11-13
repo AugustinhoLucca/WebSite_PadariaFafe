@@ -42,6 +42,8 @@ FOTOS = {
     "01-home/12-IMG_1752.jpg": "paes-variados",
     "01-home/14-IMG_5466.jpg": "mini-sanduiches",
     "01-home/15-fundo.jpg": "bolo-morango",
+    # Versão alargada da foto 02-nossa-padaria/04, recriada com IA (Gemini)
+    "01-home/16-hero-gemini.jpg": "hero-paes",
     # Nossa Padaria
     "02-nossa-padaria/01-sem-nome.jpg": "bolo-cenoura",
     "02-nossa-padaria/02-sem-nome.jpg": "bolo-chocolate-fatia",
@@ -49,6 +51,8 @@ FOTOS = {
     "02-nossa-padaria/04-sem-nome.jpg": "pacote-de-paes",
     "02-nossa-padaria/05-sem-nome.jpg": "doces-chocolate",
     "02-nossa-padaria/06-sem-nome.jpg": "torta-morango",
+    # Vitrine de docinhos recriada com IA (Gemini), usada em A Padaria
+    "02-nossa-padaria/07-vitrine-docinhos-gemini.jpg": "vitrine-docinhos",
     # Produtos
     "03-produtos/01-sem-nome.jpg": "pizza-01",
     "03-produtos/02-IMG_8581.jpg": "pizza-02",
@@ -59,6 +63,11 @@ FOTOS = {
     "03-produtos/07-sem-nome.jpg": "pizza-07",
     "03-produtos/08-tabua.jpg": "tabua-frios",
     "03-produtos/09-porcao.jpg": "porcoes",
+    # Capas das categorias do cardápio, recriadas com IA (Gemini) a partir das fotos originais
+    "03-produtos/10-cardapio-bolos-gemini.jpg": "cardapio-bolos",
+    "03-produtos/11-cardapio-tabua-gemini.jpg": "cardapio-tabuas",
+    "03-produtos/12-cardapio-lanches-gemini.jpg": "cardapio-lanches",
+    "03-produtos/13-cardapio-pizzas-gemini.jpg": "cardapio-pizzas",
     # Fotos
     "04-fotos/01-IMG_0836_edited.jpg": "naked-cake-frutas",
     "04-fotos/02-sem-nome.jpg": "paes-doces",
@@ -84,6 +93,12 @@ FOTOS = {
 }
 
 TAMANHOS = {"": 1200, "-p": 600}  # sufixo -> largura máxima
+
+# Fotos que ocupam a tela inteira (hero) ganham também uma versão grande,
+# para ficarem nítidas em monitores Full HD. Se o original for menor que
+# 1920 px, a versão -g fica do tamanho do original (o script não amplia).
+GRANDES = {"hero-paes", "cardapio-bolos", "cardapio-tabuas", "cardapio-lanches", "cardapio-pizzas"}
+TAMANHO_GRANDE = ("-g", 1920)
 QUALIDADE = 78
 
 
@@ -103,7 +118,10 @@ def main() -> None:
         img = ImageOps.exif_transpose(img)  # respeita a rotação do celular
         img = img.convert("RGB")
         total_antes += origem.stat().st_size
-        for sufixo, largura in TAMANHOS.items():
+        tamanhos = dict(TAMANHOS)
+        if nome in GRANDES:
+            tamanhos[TAMANHO_GRANDE[0]] = TAMANHO_GRANDE[1]
+        for sufixo, largura in tamanhos.items():
             saida = DESTINO / f"{nome}{sufixo}.webp"
             salvar_webp(img, largura, saida)
             total_depois += saida.stat().st_size

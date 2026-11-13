@@ -72,6 +72,7 @@
     <div class="container">
       <a class="logo" href="/"><img src="/assets/img/logo-fafe.png" alt="Padaria Fafe: página inicial" width="480" height="313"></a>
       <div class="topo-acoes">
+        <a class="botao botao--instagram botao--pequeno" href="https://www.instagram.com/padariafafe/" target="_blank" rel="noopener" aria-label="Instagram da Padaria Fafe"><svg aria-hidden="true"><use href="/assets/img/icones.svg#instagram"></use></svg> Instagram</a>
         <a class="botao botao--whats botao--pequeno" href="https://wa.me/5511913221450" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="/assets/img/icones.svg#whatsapp"></use></svg> WhatsApp</a>
       </div>
       <nav class="menu" aria-label="Principal">
@@ -88,33 +89,33 @@
   </header>
 
   <main id="conteudo">
+  <section class="horario" aria-label="Horário de funcionamento">
+      <div class="container">
+        <h2 class="sr-only">Horário de funcionamento</h2>
+        <dl>
+          <dt>Abertura: </dt><dd>05:00</dd>
+          <dt>Fechamento: </dt><dd>22:30</dd>
+          <dt>Delivery: </dt><dd>até as 22:30</dd>
+        </dl>
+        <p style="margin:0">Telefone <a href="tel:+551155884565">(11) 5588-4565</a> ou WhatsApp <a href="https://wa.me/5511913221450" target="_blank" rel="noopener">(11) 91322-1450</a></p>
+      </div>
+    </section>
+
     <section class="hero">
+      <!-- Foto de fundo: é um <img> (e não background-image no CSS) para manter o srcset
+           e o fetchpriority, que fazem a foto principal carregar rápido e no tamanho certo. -->
+      <img class="hero-fundo" src="/assets/img/hero-paes-p.webp" srcset="/assets/img/hero-paes-p.webp 600w, /assets/img/hero-paes.webp 1200w, /assets/img/hero-paes-g.webp 1376w" sizes="100vw" alt="" width="1376" height="768" fetchpriority="high">
       <div class="container">
         <div class="hero-texto">
           <span class="selo">Desde 1990 no Jabaquara</span>
           <h1>Padaria Fafe</h1>
-          <p>Pães, bolos, salgados, pratos e encomendas todos os dias, das 5h às 22h30, pertinho do metrô Jabaquara.</p>
+          <p>Pães, bolos, salgados, pratos, pizzas e encomendas todos os dias.</p>
           <div class="hero-botoes">
             <a class="botao botao--whats" href="https://wa.me/5511913221450?text=Ol%C3%A1%21%20Gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noopener"><svg aria-hidden="true"><use href="/assets/img/icones.svg#whatsapp"></use></svg> Pedir pelo WhatsApp</a>
             <a class="botao botao--ifood" href="https://www.ifood.com.br/delivery/sao-paulo-sp/fafe-paes-e-doces-ltda-cidade-vargas/89c988cd-3d91-4a79-955b-db37f9a4665f" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="/assets/img/icones.svg#sacola"></use></svg> Pedir no iFood</a>
             <a class="botao botao--contorno" href="/cardapio/">Ver cardápio</a>
           </div>
         </div>
-        <div class="hero-foto">
-          <img src="/assets/img/pacote-de-paes-p.webp" srcset="/assets/img/pacote-de-paes-p.webp 600w, /assets/img/pacote-de-paes.webp 1200w" sizes="(min-width: 900px) 520px, 100vw" alt="Pães sendo embalados no saquinho da Padaria Fafe" width="600" height="450" fetchpriority="high">
-        </div>
-      </div>
-    </section>
-
-    <section class="horario" aria-label="Horário de funcionamento">
-      <div class="container">
-        <h2 class="sr-only">Horário de funcionamento</h2>
-        <dl>
-          <dt>Abertura</dt><dd>05:00</dd>
-          <dt>Fechamento</dt><dd>22:30</dd>
-          <dt>Delivery</dt><dd>até as 22:30</dd>
-        </dl>
-        <p style="margin:0">Pedidos: <a href="tel:+551155884565">(11) 5588-4565</a> ou WhatsApp <a href="https://wa.me/5511913221450" target="_blank" rel="noopener">(11) 91322-1450</a></p>
       </div>
     </section>
 
@@ -124,7 +125,7 @@
         <p class="secao-intro">Do café da manhã ao jantar: tem sempre alguma coisa saindo quentinha.</p>
         <div class="cards">
           <article class="card">
-            <img src="/assets/img/sopa-p.webp" srcset="/assets/img/sopa-p.webp 600w, /assets/img/sopa.webp 1200w" sizes="(min-width: 700px) 360px, 100vw" alt="Panela de sopa quente no balcão" width="600" height="450" loading="lazy">
+            <img src="/assets/img/sopa-p.webp" srcset="/assets/img/sopa-p.webp 600w, /assets/img/sopa.webp 1200w" sizes="(min-width: 700px) 25vw, 100vw" alt="Panela de sopa quente no balcão" width="600" height="450" loading="lazy">
             <div class="card-corpo">
               <h3>Sopas quentinhas</h3>
               <p>Experimente nossas sopas quentinhas e apetitosas.</p>
@@ -139,14 +140,14 @@
             </div>
           </article>
           <article class="card">
-            <img src="/assets/img/pratos-economicos-p.webp" srcset="/assets/img/pratos-economicos-p.webp 600w, /assets/img/pratos-economicos.webp 1200w" sizes="(min-width: 700px) 360px, 100vw" alt="Cartaz com as opções de pratos econômicos" width="600" height="450" loading="lazy">
+            <img src="/assets/img/pratos-economicos-p.webp" srcset="/assets/img/pratos-economicos-p.webp 600w, /assets/img/pratos-economicos.webp 1200w" sizes="(min-width: 700px) 25vw, 100vw" alt="Cartaz com as opções de pratos econômicos" width="600" height="450" loading="lazy">
             <div class="card-corpo">
               <h3>O famoso PP e o Bem-estar</h3>
               <p>O PP é o prato pequeno, na medida certa pra você. O Bem-estar é um prato individual mais completo.</p>
             </div>
           </article>
           <article class="card">
-            <img src="/assets/img/maminha-assada-p.webp" srcset="/assets/img/maminha-assada-p.webp 600w, /assets/img/maminha-assada.webp 1200w" sizes="(min-width: 700px) 360px, 100vw" alt="Maminha assada com batatas e pimentões" width="600" height="450" loading="lazy">
+            <img src="/assets/img/maminha-assada-p.webp" srcset="/assets/img/maminha-assada-p.webp 600w, /assets/img/maminha-assada.webp 1200w" sizes="(min-width: 700px) 25vw, 100vw" alt="Maminha assada com batatas e pimentões" width="600" height="450" loading="lazy">
             <div class="card-corpo">
               <h3>Encomendas de assados</h3>
               <p>Maminha assada para a sua reunião ou almoço de família.</p>
@@ -154,47 +155,35 @@
             </div>
           </article>
           <article class="card">
-            <img src="/assets/img/pernil-decorado-p.webp" srcset="/assets/img/pernil-decorado-p.webp 600w, /assets/img/pernil-decorado.webp 1200w" sizes="(min-width: 700px) 360px, 100vw" alt="Pernil inteiro decorado com pimentões" width="600" height="450" loading="lazy">
+            <img src="/assets/img/pernil-decorado-p.webp" srcset="/assets/img/pernil-decorado-p.webp 600w, /assets/img/pernil-decorado.webp 1200w" sizes="(min-width: 700px) 25vw, 100vw" alt="Pernil inteiro decorado com pimentões" width="600" height="450" loading="lazy">
             <div class="card-corpo">
               <h3>Pernil inteiro decorado</h3>
               <p>Ideal para festas e datas especiais.</p>
               <a class="botao botao--contorno botao--pequeno" href="https://wa.me/5511913221450?text=Ol%C3%A1%21%20Gostaria%20de%20encomendar%3A%20pernil%20inteiro%20decorado." target="_blank" rel="noopener">Encomendar</a>
             </div>
-          </article>
+          </article> 
           <article class="card">
-            <img src="/assets/img/salada-p.webp" srcset="/assets/img/salada-p.webp 600w, /assets/img/salada.webp 1200w" sizes="(min-width: 700px) 360px, 100vw" alt="Salada com ovos, milho, azeitonas e cebola" width="600" height="450" loading="lazy">
-            <div class="card-corpo">
-              <h3>Saladas fresquinhas</h3>
-              <p>Montadas todos os dias, com ingredientes frescos.</p>
-            </div>
-          </article>
-          <article class="card">
-            <img src="/assets/img/catarinas-p.webp" srcset="/assets/img/catarinas-p.webp 600w, /assets/img/catarinas.webp 1200w" sizes="(min-width: 700px) 360px, 100vw" alt="Vitrine com catarinas recheadas" width="600" height="450" loading="lazy">
+            <img src="/assets/img/catarinas-p.webp" srcset="/assets/img/catarinas-p.webp 600w, /assets/img/catarinas.webp 1200w" sizes="(min-width: 700px) 25vw, 100vw" alt="Vitrine com catarinas recheadas" width="600" height="450" loading="lazy">
             <div class="card-corpo">
               <h3>Catarinas recheadas</h3>
               <p>Um clássico da nossa vitrine de salgados.</p>
             </div>
           </article>
           <article class="card">
-            <img src="/assets/img/mini-sanduiches-p.webp" srcset="/assets/img/mini-sanduiches-p.webp 600w, /assets/img/mini-sanduiches.webp 1200w" sizes="(min-width: 700px) 360px, 100vw" alt="Mini sanduíches com presunto e alface" width="600" height="450" loading="lazy">
+            <img src="/assets/img/mini-sanduiches-p.webp" srcset="/assets/img/mini-sanduiches-p.webp 600w, /assets/img/mini-sanduiches.webp 1200w" sizes="(min-width: 700px) 25vw, 100vw" alt="Mini sanduíches com presunto e alface" width="600" height="450" loading="lazy">
             <div class="card-corpo">
               <h3>Parada para um lanchinho</h3>
               <p>Lanches e mini sanduíches para qualquer hora do dia.</p>
             </div>
           </article>
           <article class="card">
-            <img src="/assets/img/paes-variados-p.webp" srcset="/assets/img/paes-variados-p.webp 600w, /assets/img/paes-variados.webp 1200w" sizes="(min-width: 700px) 360px, 100vw" alt="Cesta com pães rústicos variados" width="600" height="450" loading="lazy">
+            <img src="/assets/img/paes-variados-p.webp" srcset="/assets/img/paes-variados-p.webp 600w, /assets/img/paes-variados.webp 1200w" sizes="(min-width: 700px) 25vw, 100vw" alt="Cesta com pães rústicos variados" width="600" height="450" loading="lazy">
             <div class="card-corpo">
               <h3>Pães variados</h3>
               <p>Pão francês, rústicos, integrais e muito mais, saindo do forno o dia todo.</p>
             </div>
           </article>
           <article class="card card--destaque">
-            
-            <div class="card-corpo">
-              <h3>Sucos deliciosos</h3>
-              <p>Sucos naturais feitos na hora, pra acompanhar o seu lanche.</p>
-            </div>
           </article>
         </div>
       </div>
@@ -202,7 +191,7 @@
 
     <section class="secao secao--creme">
       <div class="container lado-a-lado">
-        <img src="/assets/img/vitrine-salgados-p.webp" srcset="/assets/img/vitrine-salgados-p.webp 600w, /assets/img/vitrine-salgados.webp 1200w" sizes="(min-width: 800px) 520px, 100vw" alt="Vitrine cheia de salgados assados" width="600" height="450" loading="lazy">
+        <img src="/assets/img/rosquinhas-p.webp" srcset="/assets/img/rosquinhas-p.webp 600w, /assets/img/rosquinhas.webp 1200w" sizes="(min-width: 800px) 50vw, 100vw" alt="Rosquinha com cobertura de chocolate e granulado ao lado de um sonho" width="600" height="400" loading="lazy">
         <div>
           <h2>Tudo num lugar só</h2>
           <p class="destaque-texto">Uma grande variedade de produtos, um ambiente agradável e um ótimo atendimento.</p>
@@ -214,17 +203,24 @@
         </div>
       </div>
     </section>
+
+    <section class="secao">
+      <div class="container">
+        <h2>Como chegar</h2>
+        <iframe class="mapa" title="Mapa com a localização da Padaria Fafe" src="https://www.google.com/maps?q=Padaria%20Fafe%2C%20Rua%20Onze%20de%20Fevereiro%2C%2023%2C%20Jabaquara%2C%20S%C3%A3o%20Paulo&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
   </main>
 
   <footer class="rodape">
     <div class="container">
       <div>
         <h2>Padaria Fafe</h2>
-        <p>Rua Onze de Fevereiro, 23<br>Jabaquara, São Paulo (SP)<br>Perto do metrô e do Terminal Jabaquara</p>
+        <p>Rua Onze de Fevereiro, 23<br>Jabaquara, São Paulo (SP)<br>Perto do Metrô/Terminal Jabaquara</p>
       </div>
       <div>
-        <h2>Horário</h2>
-        <p>Todos os dias, das 5h às 22h30<br>Delivery até as 22h30</p>
+        <h2>Horário de Funcionamento</h2>
+        <p>Segunda - Domingo, das 5h às 22h30<br>Delivery até as 22h30</p>
       </div>
       <div>
         <h2>Fale com a gente</h2>

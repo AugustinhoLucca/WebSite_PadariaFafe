@@ -11,11 +11,15 @@ const WHATSAPP = "5511913221450";
 
 // Foto de capa de cada categoria (na fase 3 isto vira uma coluna da tabela categoria)
 const FOTOS_CATEGORIAS = {
-  bolos: { src: "bolos", alt: "Bolos decorados com frutas e chocolate" },
-  "tabuas-de-frios": { src: "tabua-frios", alt: "Tábua de frios decorada" },
-  lanches: { src: "sanduiche-baguete", alt: "Sanduíche de baguete com presunto e queijo" },
-  pizzas: { src: "pizza-04", alt: "Pizza de mussarela com tomate e azeitonas" },
+  bolos: { src: "cardapio-bolos", alt: "Bolos decorados com chocolate, morangos e cobertura de maracujá" },
+  "tabuas-de-frios": { src: "cardapio-tabuas", alt: "Tábua de frios com salame, presunto, queijos e cerejas" },
+  lanches: { src: "cardapio-lanches", alt: "Sanduíche de pão com queijo gratinado, presunto cru, queijo e rúcula" },
+  pizzas: { src: "cardapio-pizzas", alt: "Pizza de mussarela com tomate e azeitonas" },
 };
+
+// Largura real da versão grande (-g) das capas: o original tem 1376 px.
+// Se trocar as capas por fotos maiores, atualize este número.
+const LARGURA_GRANDE = 1376;
 
 // Rótulos dos campos extras dos bolos
 const CAMPOS_BOLO = [
@@ -92,12 +96,12 @@ function criarCategoria(categoria) {
   if (foto) {
     cabecalho.append(el("img", {
       src: `/assets/img/${foto.src}-p.webp`,
-      srcset: `/assets/img/${foto.src}-p.webp 600w, /assets/img/${foto.src}.webp 1200w`,
-      sizes: "(min-width: 1120px) 1088px, 100vw",
+      srcset: `/assets/img/${foto.src}-p.webp 600w, /assets/img/${foto.src}.webp 1200w, /assets/img/${foto.src}-g.webp ${LARGURA_GRANDE}w`,
+      sizes: "100vw",
       alt: foto.alt,
       loading: "lazy",
-      width: 600,
-      height: 263,
+      width: 1376,
+      height: 768,
     }));
   }
   if (categoria.observacao) {
