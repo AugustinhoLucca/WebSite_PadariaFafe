@@ -36,6 +36,7 @@ Esta pasta é a raiz do repositório https://github.com/AugustinhoLucca/WebSite_
 - O Lucca também edita os arquivos direto (textos, rodapé, posição das seções). Antes de mexer, leia o estado atual e preserve as mudanças dele. Quando ele muda algo que se repete, como o rodapé, replique nas outras páginas.
 - **Ícones:** ficam em `assets/img/icones.svg` (sprite com `<symbol>`), usados com `<svg><use href="/assets/img/icones.svg#nome">`. A raiz do arquivo é `<s:svg>` de propósito, porque o Live Server injeta um script antes de qualquer `</svg>` e quebra o sprite. Não escreva `</svg>` nesse arquivo, nem em comentário.
 - **Testar localmente:** com o Live Server do VS Code. Como o workspace aberto é a pasta de cima (`Desktop\PadariaFafe`), o `../.vscode/settings.json` define `liveServer.settings.root` como `/PadariaFafe`. Alternativa: `python -m http.server` nesta pasta.
+- **O que vai pro site:** a Vercel publica tudo o que está no repositório, menos o que estiver no `.vercelignore` (CLAUDE.md, README, `docs/`, `ferramentas/`). Ao criar um arquivo interno novo, inclua ele lá.
 - **Cores das marcas nos botões:** `.botao--whats`, `.botao--ifood` e `.botao--instagram`. O rosa (`#d62976`) e o verde foram escolhidos pelo contraste AA com texto branco.
 
 ## Plano

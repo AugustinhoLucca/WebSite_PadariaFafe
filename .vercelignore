@@ -1,0 +1,8 @@
+# Arquivos do repositório que NÃO devem ir para o site publicado.
+# Eles continuam no GitHub; só ficam fora do que a Vercel serve na internet.
+# (Sem isso, qualquer pessoa acessaria, por exemplo, padariafafe.com/CLAUDE.md)
+
+CLAUDE.md
+README.md
+docs/
+ferramentas/

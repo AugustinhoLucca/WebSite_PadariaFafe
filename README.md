@@ -23,6 +23,7 @@ promocoes/index.html    Promoções        -> /promocoes/
 contato/index.html      Contato          -> /contato/
 404.html                Página de erro (Vercel/Netlify usam automaticamente)
 vercel.json             Redireciona as URLs antigas do Wix (/sobre, /servicos...) para as novas
+.vercelignore           Arquivos que ficam no GitHub mas NÃO vão para o site (CLAUDE.md, docs/, ferramentas/)
 
 assets/css/style.css    Estilo único, mobile-first
 assets/js/main.js       Usado em todas as páginas (ano do rodapé, menu)
