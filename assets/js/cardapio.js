@@ -12,8 +12,10 @@ const WHATSAPP = "5511913221450";
 // Foto de capa de cada categoria (na fase 3 isto vira uma coluna da tabela categoria)
 const FOTOS_CATEGORIAS = {
   bolos: { src: "cardapio-bolos", alt: "Bolos decorados com chocolate, morangos e cobertura de maracujá" },
+  beirutes: { src: "cardapio-beirutes", alt: "Beirute no pão sírio com presunto, queijo, ovo, carne e alface, com batata frita" },
   "tabuas-de-frios": { src: "cardapio-tabuas", alt: "Tábua de frios com salame, presunto, queijos e cerejas" },
   lanches: { src: "cardapio-lanches", alt: "Sanduíche de pão com queijo gratinado, presunto cru, queijo e rúcula" },
+  "sanduiches-de-metro": { src: "cardapio-sanduiches-metro", alt: "Mesa com vários sanduíches de metro fatiados, decorados com azeitonas e cerejas" },
   pizzas: { src: "cardapio-pizzas", alt: "Pizza de mussarela com tomate e azeitonas" },
 };
 

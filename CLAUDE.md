@@ -12,6 +12,8 @@ Projeto do Lucca: refazer o site da padaria da mãe dele, que hoje está no Wix 
 
 - **O domínio fica no Wix.** No lançamento, apontar os registros A/CNAME (Domínios → Gerenciar registros DNS) para o novo host e cancelar só o Plano Premium antes de 9/abr/2027.
 - **O site deve ser simples:** primeiro estático, com back-end depois.
+- **Newsletter fica de fora por enquanto.** O público da padaria está no WhatsApp e no Instagram, e não há quem envie e-mails com frequência. Se a mãe quiser, dá pra fazer com o Formspree ou, na fase 3, com uma tabela `inscrito`.
+- **Visual:** paleta tirada do logo (variáveis no topo de `style.css`). O layout ocupa a largura da tela. O hero tem foto em tela cheia com película escura em degradê (`.hero::after`).
 
 ## Arquivos desta pasta
 
@@ -19,26 +21,41 @@ Esta pasta é a raiz do repositório https://github.com/AugustinhoLucca/WebSite_
 
 - `docs/conteudo-site.md`: todo o texto das páginas, contatos, links, URLs atuais e sugeridas, e pendências a revisar com a dona
 - `dados/cardapio.json`: 157 produtos em 6 categorias (bolos, beirutes, tábuas de frios, lanches, sanduíches de metro, pizzas). O campo `preco` está null porque o site não informa preços. Os erros de digitação listados no inventário já foram corrigidos, menos "Madacaru", que ainda precisa ser confirmado.
-- `imagens/`: 55 imagens originais, por página, fora do Git. `docs/imagens.csv` mapeia cada uma ao link original. 4 são de stock do Wix e não foram usadas. As versões web ficam em `assets/img/` e são geradas por `ferramentas/otimizar_imagens.py`.
+- `imagens/`: originais, por página, fora do Git (backup em `../PadariaFafe.zip`, que não inclui as adições feitas depois do inventário). `docs/imagens.csv` registra a origem de cada uma.
+  - 55 vieram do Wix. 4 delas são de stock e não foram usadas.
+  - 6 foram recriadas com IA (Gemini) pelo Lucca, com o sufixo `-gemini`: o hero, as 4 capas do cardápio e a vitrine de docinhos da página A Padaria. Têm 1376 × 768 px.
+  - Em 14/11/2026 o Lucca enviou mais 3, sem o sufixo: o frango assado (card da home) e as capas de Beirutes e Sanduíches de metro. Agora todas as 6 categorias do cardápio têm capa.
+  - `06-contato/` tem duas logos baixadas (WhatsApp e iFood) com transparência falsa: o xadrez faz parte da imagem. Não servem para o site.
+- `assets/img/`: versões web em WebP, geradas por `ferramentas/otimizar_imagens.py`. São `nome.webp` (1200 px) e `nome-p.webp` (600 px), mais `nome-g.webp` (até 1920 px) para as fotos do conjunto `GRANDES`.
 
 ## Convenções do código
 
 - HTML, CSS e JS puros, sem build. Os caminhos são absolutos (`/assets/...`), então é preciso servir a partir desta pasta.
 - O cabeçalho e o rodapé se repetem nos 7 HTML. Uma mudança neles precisa ser aplicada em todos.
 - O WhatsApp dos links `wa.me` é o número novo, 5511913221450.
+- O Lucca também edita os arquivos direto (textos, rodapé, posição das seções). Antes de mexer, leia o estado atual e preserve as mudanças dele. Quando ele muda algo que se repete, como o rodapé, replique nas outras páginas.
+- **Ícones:** ficam em `assets/img/icones.svg` (sprite com `<symbol>`), usados com `<svg><use href="/assets/img/icones.svg#nome">`. A raiz do arquivo é `<s:svg>` de propósito, porque o Live Server injeta um script antes de qualquer `</svg>` e quebra o sprite. Não escreva `</svg>` nesse arquivo, nem em comentário.
+- **Testar localmente:** com o Live Server do VS Code. Como o workspace aberto é a pasta de cima (`Desktop\PadariaFafe`), o `../.vscode/settings.json` define `liveServer.settings.root` como `/PadariaFafe`. Alternativa: `python -m http.server` nesta pasta.
+- **Cores das marcas nos botões:** `.botao--whats`, `.botao--ifood` e `.botao--instagram`. O rosa (`#d62976`) e o verde foram escolhidos pelo contraste AA com texto branco.
 
 ## Plano
 
 **Fase 0, inventário:** concluída. Conteúdo e imagens exportados. Ainda falta revisar preços, itens e promoções com a mãe.
 
-**Fase 1, front-end estático:** primeira versão pronta em 13/11/2026. O Formspree está provisório (`xrpqeqrw`, no e-mail do Lucca) e precisa ser trocado pelo da padaria antes do lançamento. Falta revisar o conteúdo com a mãe (pendências em `docs/conteudo-site.md`).
-1. Repositório no GitHub
-2. Páginas em HTML/CSS, responsivas e pensadas pro celular: `/`, `/a-padaria`, `/cardapio`, `/fotos`, `/promocoes`, `/contato`
-3. Botão de WhatsApp em destaque e link pro iFood
-4. Título e descrição de SEO em cada página
-5. Formulário de contato via serviço externo (ex.: Formspree), sem back-end
-6. O cardápio pode ser renderizado em JS a partir do `cardapio.json`, o que já prepara a fase 3
+**Fase 1, front-end estático:** pronta e enviada ao GitHub em 13/11/2026 (branch `main`). Feito:
+- 6 páginas mobile-first e uma 404, com SEO (title, description, Open Graph e JSON-LD `Bakery`), `sitemap.xml` e `robots.txt`
+- Botões de WhatsApp, iFood e Instagram, mais o botão flutuante do WhatsApp
+- Cardápio montado em JS a partir do `cardapio.json`, com busca e "Encomendar pelo WhatsApp" em cada item
+- Formulário de contato via Formspree, galeria com `<dialog>` e mapa do Google na home e no Contato
 
-**Fase 2, publicação:** Vercel ou Netlify, com teste no endereço provisório, aprovação da mãe, DNS apontado no Wix e cancelamento do plano.
+Pendências antes do lançamento:
+- [x] Preço do frango assado atualizado pelo Lucca para R$ 48,90 (14/11/2026).
+- [x] Conteúdo aprovado pela mãe para o lançamento (14/11/2026). Ainda vale confirmar com ela, sem bloquear o lançamento: promoção do Guaraná, "Madacaru", número novo do WhatsApp e os textos curtos dos cards, escritos na fase 1. A lista completa está em `docs/conteudo-site.md`.
+- [x] Imagens geradas por IA aprovadas pela mãe junto com o site (14/11/2026). Na vitrine de docinhos aparecem preços (R$ 4,00 e R$ 4,90) e nomes com erro nas plaquinhas.
+- [x] Formspree oficial da padaria configurado (`mdegavga`), no lugar do provisório.
+- [ ] Logo do iFood: o botão ainda usa um ícone genérico de sacola. A ideia é pegar o SVG oficial (Wikimedia Commons, "IFood logo.svg") e pôr no sprite.
+- [ ] Opcional: foto do hero com 1920 px ou mais (a atual tem 1376 px).
+
+**Fase 2, publicação** (em andamento desde 14/11/2026, com o site autorizado pela mãe): conectar o repositório do GitHub à Vercel ou à Netlify, que publicam sozinhas a cada push, com teste no endereço provisório, aprovação da mãe, DNS apontado no Wix e cancelamento do plano.
 
 **Fase 3, back-end Java (portfólio):** tabelas `categoria`/`produto`/`promocao`, API Spring Boot (leitura pública e CRUD com login), painel admin pra mãe editar o cardápio, front consumindo a API e hospedagem em Render/Railway.

@@ -44,6 +44,11 @@ FOTOS = {
     "01-home/15-fundo.jpg": "bolo-morango",
     # Versão alargada da foto 02-nossa-padaria/04, recriada com IA (Gemini)
     "01-home/16-hero-gemini.jpg": "hero-paes",
+    "01-home/17-frango-assado.jpg": "frango-assado",
+    # Recriadas com IA (Gemini). O Gemini pôs o logo da padaria como marca d'água;
+    # estas são recortes em 4:3 sem a marca (os originais com marca têm "-com-marca" no nome).
+    "01-home/18-sopa-gemini.jpg": "sopa-gemini",
+    "01-home/19-maminha-gemini.jpg": "maminha-gemini",
     # Nossa Padaria
     "02-nossa-padaria/01-sem-nome.jpg": "bolo-cenoura",
     "02-nossa-padaria/02-sem-nome.jpg": "bolo-chocolate-fatia",
@@ -68,6 +73,8 @@ FOTOS = {
     "03-produtos/11-cardapio-tabua-gemini.jpg": "cardapio-tabuas",
     "03-produtos/12-cardapio-lanches-gemini.jpg": "cardapio-lanches",
     "03-produtos/13-cardapio-pizzas-gemini.jpg": "cardapio-pizzas",
+    "03-produtos/14-cardapio-sanduiches-metro.jpg": "cardapio-sanduiches-metro",
+    "03-produtos/15-cardapio-beirutes.jpg": "cardapio-beirutes",
     # Fotos
     "04-fotos/01-IMG_0836_edited.jpg": "naked-cake-frutas",
     "04-fotos/02-sem-nome.jpg": "paes-doces",
@@ -97,7 +104,8 @@ TAMANHOS = {"": 1200, "-p": 600}  # sufixo -> largura máxima
 # Fotos que ocupam a tela inteira (hero) ganham também uma versão grande,
 # para ficarem nítidas em monitores Full HD. Se o original for menor que
 # 1920 px, a versão -g fica do tamanho do original (o script não amplia).
-GRANDES = {"hero-paes", "cardapio-bolos", "cardapio-tabuas", "cardapio-lanches", "cardapio-pizzas"}
+GRANDES = {"hero-paes", "cardapio-bolos", "cardapio-tabuas", "cardapio-lanches", "cardapio-pizzas",
+           "cardapio-sanduiches-metro", "cardapio-beirutes"}
 TAMANHO_GRANDE = ("-g", 1920)
 QUALIDADE = 78
 
