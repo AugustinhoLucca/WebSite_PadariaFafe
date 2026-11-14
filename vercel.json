@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/nossos-animais", "destination": "/a-padaria/", "permanent": true },
+    { "source": "/sobre", "destination": "/cardapio/", "permanent": true },
+    { "source": "/servicos", "destination": "/fotos/", "permanent": true },
+    { "source": "/promoes", "destination": "/promocoes/", "permanent": true }
+  ]
+}
