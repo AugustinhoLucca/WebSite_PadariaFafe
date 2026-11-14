@@ -44,7 +44,8 @@ FOTOS = {
     "01-home/15-fundo.jpg": "bolo-morango",
     # Versão alargada da foto 02-nossa-padaria/04, recriada com IA (Gemini)
     "01-home/16-hero-gemini.jpg": "hero-paes",
-    "01-home/17-frango-assado.jpg": "frango-assado",
+    # Recorte 4:3 com zoom no frango (o original inteiro é o 17-frango-assado.jpg)
+    "01-home/17-frango-assado-zoom.jpg": "frango-assado",
     # Recriadas com IA (Gemini). O Gemini pôs o logo da padaria como marca d'água;
     # estas são recortes em 4:3 sem a marca (os originais com marca têm "-com-marca" no nome).
     "01-home/18-sopa-gemini.jpg": "sopa-gemini",
