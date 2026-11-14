@@ -57,6 +57,13 @@ Pendências antes do lançamento:
 - [ ] Logo do iFood: o botão ainda usa um ícone genérico de sacola. A ideia é pegar o SVG oficial (Wikimedia Commons, "IFood logo.svg") e pôr no sprite.
 - [ ] Opcional: foto do hero com 1920 px ou mais (a atual tem 1376 px).
 
-**Fase 2, publicação** (em andamento desde 14/11/2026, com o site autorizado pela mãe): conectar o repositório do GitHub à Vercel ou à Netlify, que publicam sozinhas a cada push, com teste no endereço provisório, aprovação da mãe, DNS apontado no Wix e cancelamento do plano.
+**Fase 2, publicação:** o site está no ar desde 14/11/2026 em https://www.padariafafe.com, hospedado na Vercel e ligado ao GitHub. Cada push na `main` publica sozinho em segundos.
+- [x] DNS no Wix: A `@` → `216.198.79.1` e CNAME `www` → valor do projeto na Vercel. O Wix recusa o valor com ponto final; cole sem o ponto. A Vercel redireciona o domínio sem `www` para o `www`.
+- [x] HTTPS emitido pela Vercel. Formulário testado: a mensagem chegou no e-mail da padaria.
+- [x] `vercel.json`: redirecionamentos 308 das URLs antigas do Wix (`/nossos-animais`, `/sobre`, `/servicos`, `/promoes`).
+- [x] `.vercelignore`: arquivos internos fora do site publicado.
+- [ ] Google Search Console: propriedade do tipo Domínio, verificada por TXT no DNS do Wix, e envio do `sitemap.xml`. A conta deve ser da padaria, com o Lucca como usuário.
+- [ ] Cancelar **só** o Plano Premium do Wix, com a mãe e antes de 9/abr/2027. O domínio continua no Wix.
+- Nota: nas primeiras horas, alguns DNS de provedores ainda tinham o `www` antigo em cache (`cdn3.wixdns.net`) e abriam o site do Wix. Isso se resolve sozinho. Para testar a Vercel ignorando o DNS: `curl --resolve www.padariafafe.com:443:216.198.79.1 https://www.padariafafe.com/`.
 
 **Fase 3, back-end Java (portfólio):** tabelas `categoria`/`produto`/`promocao`, API Spring Boot (leitura pública e CRUD com login), painel admin pra mãe editar o cardápio, front consumindo a API e hospedagem em Render/Railway.
